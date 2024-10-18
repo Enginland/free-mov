@@ -1,0 +1,54 @@
+.custom-pagination .page-link {
+    background-color: #333; /* Dark background for inactive pages */
+    color: white;           /* White text for inactive pages */
+    border: none;           /* Remove border */
+    margin: 0 5px;          /* Add spacing between page items */
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;  /* Ensures proper centering */
+    border-radius: 6px;     /* Rounded corners */
+}
+
+.custom-pagination .page-item.active .page-link {
+    background-color: #F2711C; /* Orange background for the active page */
+    color: white;              /* White text for active page */
+    border-radius: 6px;        /* Rounded corners for the active page */
+}
+
+.custom-pagination .page-link:hover {
+    background-color: #F2711C; /* Orange background on hover */
+    color: white;              /* White text on hover */
+    text-decoration: none;
+}
+
+.pagination {
+    justify-content: center;    /* Ensures pagination is centered */
+}
+
+
+.nav-link i { font-size: 1.5rem; }
+
+
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.episode-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.episode {
+    margin: 5px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}
+.episode.active {
+    background-color: darkorange;
+}
